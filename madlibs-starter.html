@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <script src="myscripts.js"></script>
+        <style type="text/css">
+        #wrapper { 
+            background-color: bisque;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2em;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            padding: 1em;
+            background-color: #f0f0f0;
+        }
+        #goAgainButton {
+            display: none; 
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: lightblue;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h2>Madlibs</h2>
+            <img src="http://www.madlibs.com/content/themes/madlibs/dist/images/intro_logo.png" width="20%" height="auto">
+            <p>Please enter the following information:</p>
+            
+            <input id="pluralNoun" placeholder="a plural noun"><br>
+            <input id="noun1" placeholder="a noun"><br>
+            <input id="noun2" placeholder="another noun"><br>
+            <input id="song" placeholder="song"><br>
+            <input id="verb" placeholder="verb"><br>
+            
+            <button id="submitButton" type="button">Submit</button>
+            
+            <div id="result"></div>
+            <button id="goAgainButton" type="button">Go Again</button>
+        </div>
+    </body>
+</html>
